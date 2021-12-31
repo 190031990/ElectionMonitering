@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org" th:replace="admin/base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body>
+<section class="admin d-flex justify-content-center align-items-center text-white ">
+      <div class="container">
+
+              <div class="card-body my-5">
+                  <div class="container text-center">
+
+                  <h1 class="text-center mt-3 font-italic">
+                       WELCOME ADMIN
+                  </h1>
+                  </div>
+
+                  <center><a th:href="@{/admin/add-contact}" class="btn btn-primary mt-4">Add Volunteer</a></center>
+
+              </div>
+      </div>
+</section>
+</body>
+</html>
