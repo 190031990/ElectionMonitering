@@ -1,0 +1,161 @@
+body
+{
+    background: #e2e2e2!important;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.banner
+{
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../img/banner.jpg);
+    color:white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.my-card
+{
+     padding: 20px;
+     background:#FFFFFF;
+     width:50%;
+}
+
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* sidebar style*/
+
+@media only screen and (max-width:600px){
+          .sidebar{
+           display:none;
+           width: 80% !important;
+           background: white;
+           height: 100vh;
+           position: fixed;
+           padding-top: 20px;
+          }
+          .content{
+                margin-left: 0%!important;
+          }
+}
+
+.sidebar{
+    width: 18%;
+    background:white;
+    height:100%;
+    position:fixed;
+    padding-top:45px;
+}
+
+.sidebar a{
+      display: block;
+      width:100%;
+      padding:10px 25px;
+      color:gray;
+}
+
+.sidebar a:hover{
+    background:#e2e2e2;
+}
+
+.sidebar .divider{
+       height: .5px;
+       width:100%;
+       background:#e2e2e2;
+       margin-top:10px;
+
+}
+
+.content{
+   margin-left:20%;
+}
+
+.sidebar .crossBtn{
+     position: absolute;
+     top: 0;
+     right: 35px;
+     font-size:36px;
+     cursor:pointer;
+
+}
+
+.my_profile_picture{
+     width:35px;
+     height:40px;
+     object-fit:cover;
+     border-radius:50%;
+}
+
+.reg
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../img/reg.jpg);
+}
+
+.in
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../img/in.jpg);
+}
+
+.out
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../img/out.jpg);
+}
+
+.don
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../img/don.png);
+}
+
+.admin
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../img/admin.jpg);
+}
+
+div.custom-file {     /* this will hide div with class div_class_name */
+  display:none;
+}
+
+//about
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body>
+<section class="don d-flex justify-content-center align-items-center ">
+    <center>
+    <div class="container">
+        <div class="card" style="width: 50rem">
+            <div class="card-body my-5">
+
+                <br>
+
+               <center><h1>DONATE US</h1></center>
+                <div class="container-fluid mt-1">
+                <div class="col-md-10 offset-md-1">
+
+                <form action="#"  class=""mt-2>
+                    <!--First Name-->
+                    <div class="input-group">
+                        <div class=input-group-prepend"">
+                            <div class="input-group-text">
+                                <i class="fa fa-plus"></i>
+                            </div>
+                        </div>
+                        <input required type="text" id="firstName" name="name" placeholder="Enter Name Here" class="form-control"/>
+                    </div>
+
+                    <!--Second Name-->
+                    <div class="input-group mt-4">
+                        <div class=input-group-prepend"">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input required type="text" id="secondName" name="secondName" placeholder="Enter Second Name Here" class="form-control"/>
+                    </div>
+
+                    <!--phone-->
+                    <div class="input-group mt-4">
+                        <div class=input-group-prepend"">
+                            <div class="input-group-text">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                        </div>
+                        <input required type="number" id="phone" name="phone" placeholder="Enter Phone Number Here" class="form-control"/>
+                    </div>
+
+                    <!--EMAIL-->
+
+                    <div class="input-group mt-4">
+                        <div class=input-group-prepend"">
+                            <div class="input-group-text">
+                            </div>
+                        </div>
+                        <input required type="email" id="email" name="email" placeholder="Enter email Here" class="form-control"/>
+                    </div>
+
+                    <!--work field-->
+                    <div class="input-group mt-4">
+                        <div class=input-group-prepend"">
+                            <div class="input-group-text">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <input required type="text" id="work" name="work" placeholder="Enter work here" class="form-control"/>
+                    </div>
+
+                    <!--Contact Description-->
+                    <div class="form-group mt-3">
+                        <textarea id="mytextarea" placeholder="Enter contact Description" name="description" class="form-control" rows="10"></textarea>
+                    </div>
+
+                </form>
+                    <br>
+                    <br>
+                    <br>
+
+                <div class="container text-center">
+                    <a class="active btn btn-success" href="https://rzp.io/l/KNn1HqaBR">Check Out</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </center>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+      tinymce.init({
+        selector: '#mytextarea'
+      });
+    </script>
+</section>
+</body>
+</html>
